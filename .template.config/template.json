@@ -1,0 +1,38 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Bieber",
+    "classifications": ["Web", "Service"],
+    "name": "Bieber Service Template",
+    "identity": "Bieber.ServiceTemplate.CSharp",
+    "shortName": "bieberservicetemplate",
+    "tags": {
+      "language": "C#",
+      "type": "project"
+    },
+    "preferNameDirectory":true,
+    "sourceName": "ServiceTemplate",
+    "sources": [
+      {
+        "exclude": [
+          "**/[Bb]in/**",
+          "**/[Oo]bj/**",
+          "**/[Aa]rtifacts",
+          ".template.config/**/*",
+          "**/*.filelist",
+          "**/*.user",
+          "**/*.lock.json",
+          "**/.[Gg]it/**",
+          "**/.[Gg]ithub/**",
+          "**/.vs/**"
+        ]
+      }
+    ],
+    "symbols": {
+      "Authors": {
+        "type": "parameter",
+        "datatype": "string",
+        "replaces": "Bieber"
+      }
+    }
+  }
+  
